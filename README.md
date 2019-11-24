@@ -17,13 +17,13 @@ A quick setup based on nginx,filebeat,elasticsearch and kibana.filebeat is used 
     ```
     $ git clone git@github.com:saiteja-pakalapati/nginx-filebeat-elasticsearch-kibana.git
     $ cd nginx-filebeat-elasticsearch-kibana
-    $ bash create.sh --pull
+    $ bash create.sh
     ```
 
  **Deleting the setup:**
 
    ```
-    $ bash create.sh --hard
+    $ bash delete.sh
    ```
    
  **Displaying the help text:**
